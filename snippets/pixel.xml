@@ -9,6 +9,9 @@
   <remote name="pixel-devices"
           fetch="https://github.com/PixelExperience-Devices"
           revision="eleven" />
+  <remote name="me"
+          fetch="https://github.com/adrian-8901"
+          revision="eleven" />
 
   <remote name="pixel-gitlab"
           fetch="https://gitlab.com/PixelExperience"
@@ -126,7 +129,7 @@
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="me" />
   <project path="manifest" name="manifest" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
